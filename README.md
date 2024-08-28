@@ -1,4 +1,4 @@
-<p align="center">
+<!-- <p align="center">
   <img src="./contracts_backend/assets/banner.png" alt="EDUFund Contracts Backend" style="border-radius: 10px;">
 </p>
 
@@ -22,4 +22,4 @@ Client: [EDUFund Frontend](./client/README.md)
 Contracts Backend: [EDUFund Contracts Backend](./contracts_backend/README.md)
 
 Live Deployment: [EduFund](https://edu-fund-public.vercel.app/home)
-Demo Video: [YouTube](https://youtu.be/XNtOqjahL2Y)
+Demo Video: [YouTube](https://youtu.be/XNtOqjahL2Y) -->
