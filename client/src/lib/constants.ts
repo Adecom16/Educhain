@@ -1,0 +1,195 @@
+import {
+  Blocks,
+  ChartBarBig,
+  CheckCircle2,
+  FlagTriangleRight,
+  HandCoins,
+  PackageOpen,
+  Radio,
+  User,
+} from "lucide-react";
+
+import {
+  lorelei,
+  adventurer,
+  adventurerNeutral,
+  avataaars,
+  avataaarsNeutral,
+  bigEars,
+  bigEarsNeutral,
+  bigSmile,
+  bottts,
+  botttsNeutral,
+  croodles,
+  croodlesNeutral,
+  dylan,
+  funEmoji,
+  glass,
+  icons,
+  identicon,
+  initials,
+  loreleiNeutral,
+  micah,
+  miniavs,
+  notionists,
+  notionistsNeutral,
+  openPeeps,
+  personas,
+  pixelArt,
+  pixelArtNeutral,
+  rings,
+  shapes,
+  thumbs,
+} from "@dicebear/collection";
+
+export const DOCK_ITEMS = [
+  {
+    title: "All campaigns",
+    icon: Blocks,
+    href: "/",
+  },
+  {
+    title: "Add campaign",
+    icon: Radio,
+    href: "/add-campaign",
+  },
+  {
+    title: "My campaigns",
+    icon: User,
+    href: "/my-campaigns",
+  },
+  {
+    title: "My donations",
+    icon: HandCoins,
+    href: "/my-donations",
+  },
+  {
+    title: "Proposed transaction",
+    icon: PackageOpen,
+    href: "/proposed-transaction",
+  },
+  {
+    title: "Campaigns to vote",
+    icon: ChartBarBig,
+    href: "/campaigns-to-vote",
+  },
+  {
+    title: "Voted campaigns",
+    icon: FlagTriangleRight,
+    href: "/voted-campaigns",
+  },
+  {
+    title: "Finalized campaigns",
+    icon: CheckCircle2,
+    href: "/finalized-campaigns",
+  },
+];
+export const AVATARS = [
+  lorelei,
+  adventurer,
+  adventurerNeutral,
+  avataaars,
+  avataaarsNeutral,
+  bigEars,
+  bigEarsNeutral,
+  bigSmile,
+  bottts,
+  botttsNeutral,
+  croodles,
+  croodlesNeutral,
+  dylan,
+  funEmoji,
+  glass,
+  icons,
+  identicon,
+  initials,
+  loreleiNeutral,
+  micah,
+  miniavs,
+  notionists,
+  notionistsNeutral,
+  openPeeps,
+  personas,
+  pixelArt,
+  pixelArtNeutral,
+  rings,
+  shapes,
+  thumbs,
+];
+
+export const TOKEN_SYMBOL = "EDU";
+
+export const FUTURE_SCOPE = [
+  {
+    title: "Voting period duration",
+    description:
+      "Currently the voting expires only when all donators have voted. This can lead to a situation where the voting period is extended indefinitely. To prevent this, a time limit can be added to the voting period. If the time limit is reached, the proposal can be considered as rejected. This can be achieved by using chainlink Automation",
+  },
+  {
+    title: "Campaign timeline",
+    description:
+      "To maintain the campaign timeline, a deadline can be added to the campaign. If the deadline is reached, the campaign can be considered as failed.",
+  },
+  {
+    title: "Instant UI updates",
+    description:
+      "Currently the UI does not update instantly after a transaction is made.",
+  },
+  {
+    title: "Multi chain support",
+    description:
+      "As of now, the application is only supported on the EVM compatible blockchain. To make the application more accessible, it can be deployed on multiple blockchains like solana, cosmos etc.",
+  },
+  {
+    title: "Adding indexers",
+    description:
+      "Adding indexer for faster access of campaigns and related data instead of directly fetching data from the blockchain.",
+  },
+];
+
+export const chainIdToNetwork: {
+  [key: number]: string;
+} = {
+  1: "Ethereum Mainnet",
+  3: "Ropsten Testnet",
+  4: "Rinkeby Testnet",
+  5: "Goerli Testnet",
+  42: "Kovan Testnet",
+  11155111: "Sepolia Testnet",
+  43114: "Avalanche Mainnet C-Chain",
+  97: "Binance Smart Chain Testnet",
+  56: "Binance Smart Chain Mainnet",
+  80001: "Polygon Mumbai Testnet",
+  137: "Polygon Mainnet",
+  250: "Fantom Opera Mainnet",
+  4002: "Fantom Testnet",
+  10: "Optimism Mainnet",
+  420: "Optimism Goerli Testnet",
+  69: "Optimism Kovan Testnet",
+  42161: "Arbitrum One Mainnet",
+  421611: "Arbitrum Rinkeby Testnet",
+  421613: "Arbitrum Goerli Testnet",
+  100: "Gnosis Chain (xDai)",
+  338: "Cronos Testnet",
+  25: "Cronos Mainnet",
+  1666600000: "Harmony Mainnet",
+  1666700000: "Harmony Testnet",
+  1337: "Hardhat",
+  31337: "Localhost",
+  1287: "Moonbase Alpha",
+  1285: "Moonriver",
+  1284: "Moonbeam",
+  43113: "Avalanche Fuji C-Chain",
+  66: "OKExChain Mainnet",
+  65: "OKExChain Testnet",
+  42220: "Celo Mainnet",
+  44787: "Celo Alfajores Testnet",
+  62320: "Celo Baklava Testnet",
+  2018: "Rinkeby Görli Testnet",
+  3331: "Polygon ZKEVM Testnet",
+  444900: "Seele Testnet",
+  1313161555: "Aurora Mainnet",
+  1313161556: "Aurora Testnet",
+  656476: "Opencampus",
+  59144: "Linea Mainnet",
+};
